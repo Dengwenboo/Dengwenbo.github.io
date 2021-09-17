@@ -11,7 +11,7 @@ github_repo: "https://github.com/Dengwenboo/dengwenbo.github.io.git" #code repos
 
 
 # Sidebar settings | 侧边栏设置
-sidebar: true                           # whether or not using Sidebar.
+sidebar: false                           # whether or not using Sidebar.
 sidebar-about-description: "就算这样,也要笑着去努力啊!"
 sidebar-avatar: /img/1.jpg    # 头像
 
