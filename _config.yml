@@ -59,8 +59,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    # 是否开启Gitalk评论
-  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
+  clientID: 823701c251bcf8601d2d                            #生成的clientID
+  clientSecret: ef5c074d1cf46408aeca084004b370af140eccf1   #生成的clientSecret
   repo: dengwenbo.github.io    #仓库名称
   owner: Dengwenboo    # github用户名
   admin: Dengwenboo
