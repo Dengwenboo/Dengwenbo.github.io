@@ -64,7 +64,7 @@ gitalk:
   repo: dengwenbo.github.io    #仓库名称
   owner: Dengwenboo    # github用户名
   admin: Dengwenboo
-  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+  distractionFreeMode: false # 是否启用类似FB的阴影遮罩
 
 
 # 统计
