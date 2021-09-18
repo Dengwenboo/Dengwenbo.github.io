@@ -1,7 +1,8 @@
 # Site settings | 网站设置
 title: DengWenbo's Homepage
 SEOTitle: Homepage | Dengwenbo
-header-img: img/home-bg.jpg
+# header-img: img/home-bg.jpg
+header-img: img/R2.jpg
 email: wenbodeng92@163.com
 description: "Dengwenbo的主页"
 keyword: "Dengwenbo, wenbo, 邓文博"
