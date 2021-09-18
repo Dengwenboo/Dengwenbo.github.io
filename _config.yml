@@ -1,9 +1,10 @@
 # Site settings | 网站设置
 title: DengWenbo's Homepage
-SEOTitle: 邓文博的博客 | Dengwenbo
-header-img: img/home-bg.jpg
+SEOTitle: Homepage | Dengwenbo
+# header-img: img/home-bg.jpg
+header-img: img/R2.jpg
 email: wenbodeng92@163.com
-description: "Dengwenbo的博客"
+description: "Dengwenbo的主页"
 keyword: "Dengwenbo, wenbo, 邓文博"
 url: "http://dengwenbo.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -59,8 +60,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    # 是否开启Gitalk评论
-  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
+  clientID: 823701c251bcf8601d2d                            #生成的clientID
+  clientSecret: ef5c074d1cf46408aeca084004b370af140eccf1   #生成的clientSecret
   repo: dengwenbo.github.io    #仓库名称
   owner: Dengwenboo    # github用户名
   admin: Dengwenboo
