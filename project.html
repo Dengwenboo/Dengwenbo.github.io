@@ -20,20 +20,6 @@ header-img: "img/R.jpg"
 	<hr>
 
 
-
-
-<!--	<div style="position: relative; width: 750; height: 300;">-->
-<!--<img src="/img/OIP-C.jpg" width="750" height="300" alt="">-->
-<!--<span style="position: absolute; top: 0; left: 0;">-->
-<!--	<p></p>-->
-<!--	<div class="text" style="text-align:center;font-size:35px">移动通信基站天线无人机AI巡检系统</div>-->
-<!--&lt;!&ndash;	<p></p><p>&ndash;&gt;-->
-<!--&lt;!&ndash;	<div class="text" style="text-align:justify; font-size:18px">简介:移动通信基站无人机AI巡检系统是一种创新型信息服务系统，实现基于无人机、手机客户端（Application，APP）、服务器三位一体的智能基站巡检，实时监测移动基站状态并进行信息反馈。</div>&ndash;&gt;-->
-<!--	<br><div class="text" style="text-align:center;font-size:20px;color=#F00">>>><a href="https://dengwenbo.top/2021/09/19/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1%E5%9F%BA%E7%AB%99%E5%A4%A9%E7%BA%BF%E6%97%A0%E4%BA%BA%E6%9C%BAAI%E5%B7%A1%E6%A3%80%E7%B3%BB%E7%BB%9F/">详情</a><<<</div>-->
-<!--</span>-->
-<!--</div>-->
-
-
 <div style="position: relative; width: 750; height: 300;">
 <img src="/img/OIP-C.jpg" width="750" height="300" alt="">
 <span style="position: absolute; top: 0; left: 0;">
@@ -44,6 +30,120 @@ header-img: "img/R.jpg"
 	<br><div class="text" style=" text-align:center; font-size:20px;color=#F00">>>><a href="https://dengwenbo.top/2021/09/19/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1%E5%9F%BA%E7%AB%99%E5%A4%A9%E7%BA%BF%E6%97%A0%E4%BA%BA%E6%9C%BAAI%E5%B7%A1%E6%A3%80%E7%B3%BB%E7%BB%9F/">详情</a><<<</div>
 </span>
 </div>
+
+
+	<p></p>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 清除所有标签默认间距 */
+        * {
+            margin: 0;
+        }
+
+        .box {
+            width: 750px;
+            height: 300px;
+            /* 定义相对位置 */
+            position: relative;
+            /* 设置溢出隐藏 */
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .box img {
+            /* 鼠标移入变化时间 */
+            transition: all 0.5s;
+        }
+
+        .small {
+            width: 400px;
+            height: 280px;
+            /* 小块背景色 */
+            background-color: #00bcd438;
+            /* 定义绝对位置 */
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            /* 变化时间 */
+            transition: all 0.5s;
+            /* 透明度为0 */
+            opacity: 0;
+            /* 转换：旋转180度，放大1.5倍 */
+            transform: rotate(180deg) scale(1.5);
+        }
+
+        .text-box {
+            /* 定义绝对位置 */
+            position: absolute;
+            left: 0;
+            top: 115px;
+            width: 440px;
+            /* 文本居中 */
+            text-align: center;
+            /* 文字大小 */
+            font-size: 30px;
+
+            color: white;
+            /* 转换：放大2倍 */
+            transform: scale(2);
+            /* 透明度为0 */
+            opacity: 0;
+            /* 变化时间 */
+            transition: all 1s;
+        }
+
+        /* 图片变化 */
+        .box:hover img {
+            transform: scale(2) rotate(45deg)
+        }
+
+        /* 透明块 */
+        .box:hover .small {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        /* 文字 */
+        .box:hover .text-box {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+ /* 选择图片 */
+        <img src="images/OIP-C.jpg" alt="">
+        <div class="small"></div>
+        <div class="text-box">
+            <p class="title">移动通信基站天线无人机AI巡检系统</p>
+            <p>Web Designer</p>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/OIP-C.jpg" alt="">
+        <div class="small"></div>
+        <div class="text-box">
+            <p class="title">KRISTINA</p>
+            <p>Web Designer</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
 
 
 <!-- Gitalk 评论 start  -->
@@ -67,5 +167,3 @@ header-img: "img/R.jpg"
 </script>
 {% endif %}
 <!-- Gitalk end -->
-
-
