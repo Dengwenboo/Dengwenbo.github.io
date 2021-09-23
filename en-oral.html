@@ -1,31 +1,133 @@
 ---
-title: Blog
+title: English
 layout: page
-description: "相信奇迹的人,本身就是奇迹。"
-header-img: "img/R.jpg"
+description: "Being on sea, sail; being on land, settle。"
+header-img: "img/home-bg.jpg"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-	<a href="{{ post.url | prepend: site.baseurl }}">
-		<h2 class="post-title">
-			{{ post.title }}
-		</h2>
-		{% if post.subtitle %}
-		<h3 class="post-subtitle">
-			{{ post.subtitle }}
-		</h3>
-		{% endif %}
-		<div class="post-content-preview">
-			{{ post.content | strip_html | truncate:200 }}
+<div class="zh post-container">
+
+	<blockquote>
+		<p>
+			Whatever is worth doing is worth doing well.
+		</p>
+	</blockquote>
+
+<h>
+	<stong>English Cornor</stong>
+	<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 清除所有标签默认间距 */
+        * {
+            margin: 0;
+        }
+
+        .box {
+            width: 750px;
+            height: 300px;
+            /* 定义相对位置 */
+            position: relative;
+            /* 设置溢出隐藏 */
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .box img {
+            /* 鼠标移入变化时间 */
+            transition: all 0.5s;
+        }
+
+        .small {
+            width: 750px;
+            height: 300px;
+            /* 小块背景色 */
+            background-color: #00bcd438;
+            /* 定义绝对位置 */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            /* 变化时间 */
+            transition: all 0.5s;
+            /* 透明度为0 */
+            opacity: 0;
+            /* 转换：旋转180度，放大1.5倍 */
+            transform: rotate(0deg) scale(0.8);
+        }
+
+        .text-box {
+            /* 定义绝对位置 */
+            position: absolute;
+            left: 0px;
+            top: 40px;
+            width: 750px;
+            /* 文本居中 */
+            text-align: center;
+            /* 文字大小 */
+            font-size: 30px;
+
+            color: white;
+            /* 转换：放大2倍 */
+            transform: scale(2);
+            /* 透明度为0 */
+            opacity: 0;
+            /* 变化时间 */
+            transition: all 1s;
+        }
+
+        /* 图片变化 */
+        .box:hover img {
+            transform: scale(1) rotate(0deg)
+        }
+
+        /* 透明块 */
+        .box:hover .small {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        /* 文字 */
+        .box:hover .text-box {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
+</head>
+	<p></p>
+
+<body>
+    <div class="box">
+<!-- /* 选择图片 */-->
+        <img src="/img/copy.jpg" width="750" height="300" alt="">
+		<div class="text" style=" text-align:center; font-size:35px">Grow on sb</div>
+        <div class="small"></div>
+        <div class="text-box">
+			<p class="title" style="font-size:20px text-align:center color:red"><br><b></b><br><br>点击进入<a href="https://dengwenbo.top/2021/09/19/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1%E5%9F%BA%E7%AB%99%E5%A4%A9%E7%BA%BF%E6%97%A0%E4%BA%BA%E6%9C%BAAI%E5%B7%A1%E6%A3%80%E7%B3%BB%E7%BB%9F/">产品介绍</a></p>
 		</div>
-	</a>
-	<p class="post-meta">
-		Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-	</p>
-</div>
-<hr>
-{% endfor %}
+
+    </div>
+</body>
+<p></p>
+<body>
+    <div class="box">
+<!-- /* 选择图片 */-->
+        <img src="/img/d3.jpg" width="750" height="300" alt="">
+        <div class="small"></div>
+        <div class="text-box">
+			<p class="title" style="font-size:20px text-align:center color:red"><br><b></b><br><br>点击进入<a href="https://dengwenbo.top/2021/09/22/%E5%85%A8%E6%97%B6%E7%A9%BA%E7%9B%91%E6%B5%8B%E5%B7%A5%E7%A8%8B%E7%8E%B0%E5%9C%BA%E8%BF%9B%E5%BA%A6%E8%AF%86%E5%88%AB/">产品介绍</a></p>
+		</div>
+
+    </div>
+</body>
+
+
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
