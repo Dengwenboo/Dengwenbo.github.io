@@ -1,11 +1,11 @@
 ---
-title: Oral
+title: Blog
 layout: page
 description: "相信奇迹的人,本身就是奇迹。"
 header-img: "img/R.jpg"
 ---
 
-{% for post in paginator.endocs %}
+{% for post in paginator.posts %}
 <div class="post-preview">
 	<a href="{{ post.url | prepend: site.baseurl }}">
 		<h2 class="post-title">
